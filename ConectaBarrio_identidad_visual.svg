@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">ConectaBarrio — identidad visual</title>
+  <desc id="desc">Composición de marca en azul y blanco, con un símbolo geométrico que representa conexiones entre espacios comunitarios.</desc>
+  <defs>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.35" fill="#C2D7E6"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="680" fill="#F5F9FC"/>
+  <rect width="1200" height="680" fill="url(#dots)" opacity=".5"/>
+  <path d="M0 560H1200" stroke="#DBE8F1" stroke-width="2"/>
+  <rect x="54" y="54" width="1092" height="572" rx="20" fill="#FFFFFF" stroke="#D6E5EF" stroke-width="2"/>
+
+  <!-- Brand symbol: three neighboring spaces joined around one shared point. -->
+  <g transform="translate(134 179)">
+    <rect width="318" height="318" rx="39" fill="#173C58"/>
+    <rect x="73" y="73" width="108" height="108" rx="8" fill="none" stroke="#FFFFFF" stroke-width="11"/>
+    <rect x="139" y="139" width="108" height="108" rx="8" fill="none" stroke="#FFFFFF" stroke-width="11"/>
+    <path d="M181 117h37a29 29 0 0 1 29 29v-7" fill="none" stroke="#70B4E0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="73" cy="181" r="11" fill="#70B4E0"/>
+    <circle cx="247" cy="139" r="11" fill="#70B4E0"/>
+  </g>
+
+  <g transform="translate(518 246)">
+    <rect width="63" height="5" rx="2.5" fill="#2A7BAF"/>
+    <text x="0" y="91" font-family="Arial, Helvetica, sans-serif" font-size="83" font-weight="700" letter-spacing="-4.1" fill="#173C58">Conecta<tspan fill="#2B7BAF">Barrio</tspan></text>
+    <text x="4" y="142" font-family="Arial, Helvetica, sans-serif" font-size="21.5" font-weight="700" letter-spacing="4.7" fill="#456579">RED COMUNITARIA</text>
+    <text x="4" y="176" font-family="Arial, Helvetica, sans-serif" font-size="21.5" font-weight="700" letter-spacing="4.7" fill="#456579">INTELIGENTE</text>
+  </g>
+
+  <g stroke="#BED5E5" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M518 486h531"/>
+    <path d="M518 499h260"/>
+  </g>
+  <text x="522" y="536" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#5A7385">Una conexión que comienza en comunidad.</text>
+</svg>
